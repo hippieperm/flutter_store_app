@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: StorePage(),
     );
@@ -25,7 +25,7 @@ class StorePage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            SizedBox(
+            const SizedBox(
               height: 70,
               child: Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20),
