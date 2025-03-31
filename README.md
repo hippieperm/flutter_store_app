@@ -51,7 +51,8 @@ flutter run
 
 ## 📱 스크린샷
 
-[스크린샷 이미지 추가 예정]
+![Simulator Screenshot - iPhone 16 Pro Max - 2025-03-31 at 11 48 50](https://github.com/user-attachments/assets/ea759d11-dac1-40d9-afcb-45e494853f3f)
+
 
 ## 🤝 기여하기
 
