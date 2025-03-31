@@ -20,42 +20,46 @@ class StorePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    
     return Scaffold(
       body: SafeArea(
         child: Column(
           children: [
-            Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20),
-              child: Row(
-                children: [
-                  Text(
-                    'Woman',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
+            SizedBox(
+              height: 70,
+              child: Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20),
+                child: Row(
+                  children: [
+                    Text(
+                      'Woman',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                  Spacer(),
-                  Text(
-                    'Kids',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
+                    Spacer(),
+                    Text(
+                      'Kids',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                  Spacer(),
-                  Text(
-                    'Shose',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
+                    Spacer(),
+                    Text(
+                      'Shose',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                  Spacer(),
-                  Text(
-                    'Bag',
-                    style: TextStyle(
-                      fontWeight: FontWeight.bold,
+                    Spacer(),
+                    Text(
+                      'Bag',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                      ),
                     ),
-                  ),
-                ],
+                  ],
+                ),
               ),
             ),
             Expanded(
