@@ -20,7 +20,7 @@ class StorePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: SafeArea(
         child: Column(
           children: [
@@ -28,11 +28,28 @@ class StorePage extends StatelessWidget {
               children: [
                 Text(
                   'Woman',
-                  style: TextStyle(),
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
-                Text('Kids'),
-                Text('Shose'),
-                Text('Bag'),
+                Text(
+                  'Kids',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  'Shose',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                Text(
+                  'Bag',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ],
             )
           ],
