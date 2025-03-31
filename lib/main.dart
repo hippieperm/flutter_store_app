@@ -25,9 +25,8 @@ class StorePage extends StatelessWidget {
         child: Column(
           children: [
             Padding(
-              padding: EdgeInsets.symmetric(vertical: 30),
+              padding: EdgeInsets.symmetric(horizontal: 20),
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
                   Text(
                     'Woman',
@@ -35,18 +34,21 @@ class StorePage extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  Spacer(),
                   Text(
                     'Kids',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  Spacer(),
                   Text(
                     'Shose',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
+                  Spacer(),
                   Text(
                     'Bag',
                     style: TextStyle(
