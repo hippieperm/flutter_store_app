@@ -24,33 +24,37 @@ class StorePage extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            Row(
-              children: [
-                Text(
-                  'Woman',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
+            Padding(
+              padding: EdgeInsets.symmetric(vertical: 30),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Text(
+                    'Woman',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-                Text(
-                  'Kids',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
+                  Text(
+                    'Kids',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-                Text(
-                  'Shose',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
+                  Text(
+                    'Shose',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-                Text(
-                  'Bag',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
+                  Text(
+                    'Bag',
+                    style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             )
           ],
         ),
